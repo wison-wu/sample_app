@@ -33,5 +33,5 @@ SampleApp::Application.configure do
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
-  ActiveModel::SecurePassword.min_cost = true
+  ActiveModel::SecurePassword.min_cost = true   #解决测试代码速度慢的情况
 end
